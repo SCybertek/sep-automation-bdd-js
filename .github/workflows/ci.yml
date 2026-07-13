@@ -1,16 +1,16 @@
 name: SEP Tests
 
 on:
-  push:
-    branches:
-      - main
-      - develop
-  pull_request:
-    branches:
-      - main
-      - develop
-  schedule:
-    - cron: "0 23 * * *" # Runs at 23:00 UTC (6 PM EST)
+  # push:
+  #   branches:
+  #     - main
+  #     - develop
+  # pull_request:
+  #   branches:
+  #     - main
+  #     - develop
+  # schedule:
+  #   - cron: "0 23 * * *" # Runs at 23:00 UTC (6 PM EST)
   workflow_dispatch:
 
 jobs:
