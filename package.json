@@ -16,12 +16,12 @@
   "description": "",
   "type": "module",
   "devDependencies": {
-    "@playwright/test": "^1.60.0",
-    "@types/node": "^22.16.0"
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^12.9.0",
-    "@faker-js/faker": "^10.4.0",
-    "cucumber-html-reporter": "^5.0.2"
+    "@cucumber/cucumber": "^13.1.0",
+    "@faker-js/faker": "^10.5.0",
+    "cucumber-html-reporter": "^7.2.0"
   }
 }
